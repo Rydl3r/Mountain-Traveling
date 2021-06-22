@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -8,7 +9,12 @@ html, body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -26,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   color: white;
   overflow-x: hidden;
 }
@@ -39,14 +45,14 @@ body {
 }
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .main-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'Spartan', sans-serif;
+  font-family: "Spartan", sans-serif;
   font-weight: 700;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -59,8 +65,8 @@ body {
   padding: 0 10vw;
   color: white;
   z-index: 1;
-  -webkit-transition: .4s ease-out;
-  transition: .4s ease-out;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
 }
 
 .main-header a {
@@ -78,8 +84,8 @@ body {
 }
 
 .main-header .nav-links .nav-link a {
-  margin: .2rem;
-  padding: 1rem .5rem;
+  margin: 0.2rem;
+  padding: 1rem 0.5rem;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
@@ -106,14 +112,14 @@ body {
 }
 
 .main-header .menu-icon__line::before, .main-header .menu-icon__line::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 100%;
   width: 100%;
   border-radius: 4px;
   background: #fff;
-  -webkit-transition: background .8s ease;
-  transition: background .8s ease;
+  -webkit-transition: background 0.8s ease;
+  transition: background 0.8s ease;
 }
 
 .main-header .menu-icon__line::before {
@@ -131,7 +137,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .lines__left, .lines__right, .article__lines {
+  .lines__left,
+  .lines__right,
+  .article__lines {
     display: none;
   }
   .content__subtitle {
@@ -177,10 +185,10 @@ body {
     font-size: 2rem;
     color: #fff;
     background: #272727;
-    -webkit-transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
-    transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
-    transition: opacity .8s .5s, clip-path 1s .5s;
-    transition: opacity .8s .5s, clip-path 1s .5s, -webkit-clip-path 1s .5s;
+    -webkit-transition: opacity 0.8s 0.5s, -webkit-clip-path 1s 0.5s;
+    transition: opacity 0.8s 0.5s, -webkit-clip-path 1s 0.5s;
+    transition: opacity 0.8s 0.5s, clip-path 1s 0.5s;
+    transition: opacity 0.8s 0.5s, clip-path 1s 0.5s, -webkit-clip-path 1s 0.5s;
     -webkit-clip-path: circle(200px at top right);
             clip-path: circle(200px at top right);
     margin-top: 0;
@@ -211,16 +219,16 @@ body {
     transition: opacity 0.4s ease-in-out, transform 0.6s cubic-bezier(0.175, 0.085, 0.32, 1.275), -webkit-transform 0.6s cubic-bezier(0.175, 0.085, 0.32, 1.275);
   }
   .main-header .menu-btn:checked ~ .nav-links .nav-link:nth-of-type(1) {
-    -webkit-transition-delay: .7s;
-            transition-delay: .7s;
+    -webkit-transition-delay: 0.7s;
+            transition-delay: 0.7s;
   }
   .main-header .menu-btn:checked ~ .nav-links .nav-link:nth-of-type(2) {
-    -webkit-transition-delay: .8s;
-            transition-delay: .8s;
+    -webkit-transition-delay: 0.8s;
+            transition-delay: 0.8s;
   }
   .main-header .menu-btn:checked ~ .nav-links .nav-link:nth-of-type(3) {
-    -webkit-transition-delay: .9s;
-            transition-delay: .9s;
+    -webkit-transition-delay: 0.9s;
+            transition-delay: 0.9s;
   }
   .main-header .menu-btn:checked ~ .nav-links .nav-link:nth-of-type(4) {
     -webkit-transition-delay: 1s;
@@ -520,8 +528,8 @@ body {
 .article__image_source {
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .article__image_source:hover {
@@ -682,7 +690,7 @@ body {
   font-weight: bold;
   font-size: 45px;
   padding-bottom: 50px;
-  color: #D4AF37;
+  color: #d4af37;
 }
 
 .numbers_blocks {
@@ -704,7 +712,7 @@ body {
 
 .numbers_block_title {
   font-size: 65px;
-  color: #D4AF37;
+  color: #d4af37;
 }
 
 .numbers_block_sub {
@@ -779,8 +787,8 @@ body {
   top: 10px;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .fresh_image_first_source:hover {
@@ -797,8 +805,8 @@ body {
   right: 150px;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .fresh_image_second_source:hover {
@@ -830,7 +838,8 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .fresh_lines_top, .fresh_lines_bottom {
+  .fresh_lines_top,
+  .fresh_lines_bottom {
     display: none;
   }
   .fresh .container {
@@ -889,7 +898,9 @@ body {
   padding: 50px 100px;
 }
 
-label, input, textarea {
+label,
+input,
+textarea {
   display: block;
   width: 100%;
   font-size: 12pt;
@@ -918,7 +929,8 @@ em {
   font-weight: bold;
 }
 
-input, textarea {
+input,
+textarea {
   border: none;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 2px;
@@ -927,7 +939,8 @@ input, textarea {
   outline: none;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border: 1px solid #6bd4b1;
 }
 
@@ -972,7 +985,7 @@ textarea:-webkit-autofill,
 textarea:-webkit-autofill:hover,
 textarea:-webkit-autofill:focus {
   border: 1px solid #6bd4b1;
-  -webkit-text-fill-color: #2A293E;
+  -webkit-text-fill-color: #2a293e;
   -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
@@ -994,4 +1007,8 @@ textarea:-webkit-autofill:focus {
 .rydler {
   color: yellow;
   text-decoration: none;
+}
+
+.logo {
+  margin-right: 200px;
 }
